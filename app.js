@@ -10,13 +10,14 @@ const main = async() => {
     console.log('*  '.blue,'Funciones Matematicas'.bgGreen, '  *'.blue);
 
     console.log('*****************************\n'.blue);
-    console.log('*****************************'.grey);
-    console.log('*                           *'.grey);
+    console.log('*****************************'.yellow);
+    console.log('*                           *'.yellow);
 
-    console.log(math.add(5,3));
-    console.log(math.substract(2,8));
-    console.log(math.multiply(2,8));
-    console.log(math.divide(2,0.9));
+    console.log('*             '.yellow + math.add(5,3) + '             *'.yellow );
+    console.log('*            '.yellow + math.substract(2,8) + '             *'.yellow );
+    console.log('*            '.yellow + math.multiply(2,8) + '             *'.yellow );
+    console.log('*    '.yellow + math.divide(2,0.9) + '     *'.yellow );
+    console.log('*****************************'.yellow);
 }
 
 main();
